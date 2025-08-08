@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const BackgroundWrapper = styled.div`
   min-height: 100vh;
-  background-color: #000; 
+  background-color: #494C4F;
   display: flex;
   justify-content: center;
   align-items: center;

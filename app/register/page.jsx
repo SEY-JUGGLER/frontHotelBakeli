@@ -77,7 +77,7 @@ export default function RegisterPage() {
         <Button>S'inscrire</Button>
       </Form>
       <p>
-        Vous avez déjà un compte ? <StyledLink href="/login">Se connecter</StyledLink>
+        Vous avez déjà un compte ? <a href="/login">Se connecter</a>
       </p>
     </Container>
     </BackgroundWrapper>
