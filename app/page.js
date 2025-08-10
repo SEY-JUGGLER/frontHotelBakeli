@@ -1,14 +1,10 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import styled from "styled-components";
+// app/page.jsx
+import { redirect } from 'next/navigation';
 
 export default function Home() {
-  return (
-    <div>
-      
-    </div>
-  );
+  redirect('/login');
 }
+
 
 // export const StyledDiv = styled.h2`
 //   background-color: #12013dff;
