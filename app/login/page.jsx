@@ -76,9 +76,9 @@ export default function LoginPage() {
         <Container>
           <Form>
             <h2>Connectez-vous en tant que Admin</h2>
-            <Input type="email" placeholder="Email" />
-            <Input type="password" placeholder="Mot de passe" />
-            <Button>Se connecter</Button>
+            <Input type="email" placeholder="Email" required />
+            <Input type="password" placeholder="Mot de passe" required/>
+            <Button><a href="/hotels">Se connecter</a></Button>
             <label>
               <input type="checkbox" /> Gardez-moi connecté
             </label>
