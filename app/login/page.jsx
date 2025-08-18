@@ -42,6 +42,8 @@ const Button = styled.button`
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
+  
+  
 
   &:hover {
     background-color: #5d0000ff;
@@ -67,6 +69,10 @@ const StyledLink = styled(Link)`
     color: #1d3557;
   }
 `;
+
+const a= styled.a`
+  color: #ffffffff; 
+  `;
 
 export default function LoginPage() {
   return (
